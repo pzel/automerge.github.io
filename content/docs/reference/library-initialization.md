@@ -132,7 +132,7 @@ If you're in an environment which doesn't support importing WebAssembly modules 
 - Change all imports in your application of `@automerge/automerge` and `@automerge/automerge-repo` to the "slim" variants (`@automerge/automerge/slim` and `@automerge/automerge-repo/slim)`
 - Obtain the WebAssembly module and initialize it manually, then wait for initialization to complete.
 
-For this latter part we expose two exports from the `@automerge/automerge` package which can be used to obtain the raw WebAssembly. `@automerge/automerge/automerge.wasm` is a binary version of the WebAssembly file, whilst `@automerge/automerge/automerge.wasm.base64.js` is a JS modules with a single export called `automergeWasmBase64` which is a base64 encoded version of the WebAssembly file.
+For this latter part we expose two exports from the `@automerge/automerge` package which can be used to obtain the raw WebAssembly. `@automerge/automerge/automerge.wasm` is a binary version of the WebAssembly file, whilst `@automerge/automerge/automerge.wasm.base64.js` is a JS module with a single export called `automergeWasmBase64` which is a base64 encoded version of the WebAssembly file.
 
 <div class="note">
 
